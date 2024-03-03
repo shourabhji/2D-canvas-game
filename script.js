@@ -1,4 +1,4 @@
-let playerState = ''
+let playerState = 'idle'
 const dropdown = document.getElementById('animations')
 dropdown.addEventListener('change',function(e) {
     playerState = e.target.value
@@ -26,7 +26,7 @@ let gameFrame = 0
 
  const spriteAnimationStates = [ 
     {
-        name:playerState,
+        name:'idle',
         frame:7
     }
     ,{
